@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "342011287087",
+    "project_id": "iculibrary-40b27",
+    "storage_bucket": "iculibrary-40b27.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342011287087:android:fbbbef39e7ccd0777458da",
+        "android_client_info": {
+          "package_name": "com.example.firstapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSZAFQ7XZ_bf_c7qEugOzotZgP4z4MFxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
