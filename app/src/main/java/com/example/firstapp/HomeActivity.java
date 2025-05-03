@@ -12,7 +12,7 @@ public class HomeActivity extends ComponentActivity {
 
         // Create a TextView programmatically
         TextView welcomeTextView = new TextView(this);
-        welcomeTextView.setText("Welcome to ICU Mobile app project");
+        welcomeTextView.setText("Welcome to BRIISP ACADEMY");
         welcomeTextView.setTextSize(24); // Set text size if needed
         welcomeTextView.setPadding(16, 16, 16, 16); // Set padding if needed
 

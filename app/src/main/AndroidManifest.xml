@@ -16,7 +16,7 @@
         android:theme="@style/Theme.Firstapp"
         tools:targetApi="31">
         <activity
-            android:name=".firebaselogin"
+            android:name=".FirebaseLogin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".firebasesignup"
+            android:name=".FirebaseSignup"
             android:exported="false" /> <!-- MainActivity is the launcher activity -->
         <activity
             android:name=".LoginActivity"
