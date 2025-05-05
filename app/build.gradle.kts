@@ -73,6 +73,9 @@ dependencies {
     // Firebase BOM and Authentication
     implementation(platform("com.google.firebase:firebase-bom:32.3.1")) // ✅ Firebase BOM
     implementation("com.google.firebase:firebase-auth") // ✅ Firebase Auth
+    implementation ("com.google.firebase:firebase-firestore:24.4.4")
+    implementation ("com.google.firebase:firebase-auth:22.1.1")
+
 
     // Networking (Volley)
     implementation(libs.volley)

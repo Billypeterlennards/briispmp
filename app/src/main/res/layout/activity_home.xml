@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#EAF2F8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Briisp Academy – Admin Panel"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#2C3E50"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- Teacher Form -->
+        <EditText
+            android:id="@+id/editTeacherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teacher Name"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTeacherSpec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Specialization"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnAddTeacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Teacher"
+            android:backgroundTint="#2980B9"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Course Form -->
+        <EditText
+            android:id="@+id/editCourseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Course Name"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnAddCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Course"
+            android:backgroundTint="#27AE60"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Student Form -->
+        <EditText
+            android:id="@+id/editStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Name"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnAddStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Student"
+            android:backgroundTint="#8E44AD"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="32dp" />
+    </LinearLayout>
+</ScrollView>
